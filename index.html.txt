@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cửa Hàng Trực Tuyến</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cửa Hàng Trực Tuyến</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Trang Chủ</a></li>
+                <li><a href="#products">Sản Phẩm</a></li>
+                <li><a href="#contact">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Chào Mừng Đến Với Cửa Hàng Của Chúng Tôi!</h2>
+        <p>Khám phá những sản phẩm tuyệt vời và ưu đãi đặc biệt.</p>
+    </section>
+
+    <section id="products">
+        <h2>Sản Phẩm</h2>
+        <div class="product">
+            <img src="product1.jpg" alt="Sản Phẩm 1">
+            <h3>Sản Phẩm 1</h3>
+            <p>Giá: 100.000 VNĐ</p>
+            <button onclick="addToCart('Sản Phẩm 1')">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Sản Phẩm 2">
+            <h3>Sản Phẩm 2</h3>
+            <p>Giá: 200.000 VNĐ</p>
+            <button onclick="addToCart('Sản Phẩm 2')">Thêm Vào Giỏ Hàng</button>
+        </div>
+        <!-- Thêm sản phẩm khác tại đây -->
+    </section>
+
+    <section id="contact">
+        <h2>Liên Hệ</h2>
+        <p>Email: info@cuahang.com</p>
+        <p>Điện thoại: 0123 456 789</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cửa Hàng Trực Tuyến. Bản quyền thuộc về chúng tôi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
